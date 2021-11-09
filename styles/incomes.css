@@ -108,7 +108,7 @@ main {
   border-radius: 10px;
   width: 300px;
   height: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   padding-left: 10px;
   background: var(--background-dark);
   box-shadow: 6px 6px 16px var(--shadow-dark),
