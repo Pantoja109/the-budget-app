@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/incomes.css">
+    <title>The Budget App | Incomes</title>
+</head>
+<body>
+    <header>
+        <div class= "header-container">
+            <img src="../assets/logo.png" alt="logo" class="logo">
+            <nav>
+                <p>Menú</p>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="form-container">
+           <form action="" class="form">
+                <div>
+                    <input type="text" class="input-quantity" placeholder="$0.00 ">
+                    <label for="move-type">Tipo: </label>
+                    <label for="date"></label>
+                    <input type="date" id="date" class="input input-date">
+                    <div class="periodicity">
+                        <label for="periodicity">¿Es un ingreso fijo?</label>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <label for="category">Categoría:</label>
+                    <select name="category" id="category" class="select">
+                        <option value="category_blank">...</option>
+                        <option value="category_1">Sueldo</option>
+                        <option value="category_2">Venta</option>
+                        <option value="category_3">Prestamo</option>
+                    </select>
+                    <label for="account">Cuenta:</label>
+                    <select name="account" id="account" class="select">
+                        <option value="account_blank">...</option>
+                        <option value="account_1">Cartera</option>
+                        <option value="account_2">Nómina</option>
+                        <option value="account_3">Ahorro</option>
+                    </select>
+                </div> 
+                <input type="submit" value="Agregar" class="primary-button">
+                   
+            </form>
+
+            
+        </section>
+    </main>
+</body>
+</html>
